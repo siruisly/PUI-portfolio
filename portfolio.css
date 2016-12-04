@@ -6,14 +6,14 @@
 	h1{
 		font-size: 5em;
 		font-family:sans-serif;
-		color: #FFC9F6;
+		color: #FF1111;
 		margin:0;
 	}
 	.intro p{
 		color: #FFC9F6;
 	}
 
-	/* Centered texts in each section
+	/* Left-aligned texts in each section
 	* --------------------------------------- */
 	.section{
 		text-align:left;
@@ -27,11 +27,3 @@
 	.controlArrow.next{
 		right: 50px;
 	}
-
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
-	</style>

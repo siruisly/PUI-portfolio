@@ -3,9 +3,13 @@
     <head>
     <link rel="stylesheet" href="portfolio.css">
         
-        
-        
-        <script type="text/javascript">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<script type="text/javascript" src="portfolio.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
@@ -16,7 +20,12 @@
 
 		});
 	</script>
+    
+    <script src="portfolio.js"></script>
+   
 
+        
+        
     </head>
 
 
@@ -26,22 +35,25 @@
     
     <!-- all the content for the portfolio -->
 <ul id="menu">
-	<li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
-	<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
-	<li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
-	<li data-menuanchor="4thpage"><a href="#4thpage">Fourth slide</a></li>
+	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">About Me</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">My Process</a></li>
+	<li data-menuanchor="4thpage"><a href="#4thpage">Case Studies</a></li>
+    <li data-menuanchor="lastpage"><a href="#lastpage">Contact</a></li>
 </ul>
-        
+  
         
         
 <div id="fullpage">
-	<div class="section " id="section0">
+	
+    <div class="section active" id="section0">
 		<div class="intro">
 			<h1>Intro page</h1>
 			<p>filler text for now... may be values later?</p>
 		</div>
 	</div>
      
+    
     <div class="section" id="section1">
 		<div class="intro">
 			<h1>About Me</h1>
@@ -53,34 +65,8 @@
                 </p>
 		</div>
 	</div>
-        
-	<div class="section" id="section2">
-	    <div class="slide" id="slide1">
-			<div class="intro">
-			<h1>Case Studies</h1>
-                <p>
-					A complete portfolio is available in PDF upon request through email. 
-				</p>
-                <p>
-                    Please email me for more information.
-                </p>	
-			</div>
-		</div>
-
-        <div class="slide" id="slide2">
-			<div class="intro">
-			<h1>Case Studies</h1>
-                <p>
-					A complete portfolio is available in PDF upon request through email. 
-				</p>
-                <p>
-                    Please go to the next page to email me for more information.
-                </p>	
-			</div>
-		</div>
-	</div>
-   
-    <div class="section" id="section3">
+    
+    <div class="section" id="section2">
         <div class="intro">
         <h1>My Process</h1>
         <p>
@@ -100,6 +86,25 @@
         </p>
         </div> 
     </div>
+    
+    
+    
+	<div class="section" id="section3">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+			<h1>Case Studies</h1>
+                <p>
+					A complete portfolio is available in PDF upon request through email. 
+				</p>
+                <p>
+                    Please email me for more information.
+                </p>	
+			</div>
+		</div>
+	</div>
+   
+    
+
     
     <div class="section" id="section4">
         <div class="intro">
