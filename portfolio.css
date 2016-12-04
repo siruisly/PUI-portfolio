@@ -1,0 +1,37 @@
+    
+
+/* Style for the portfolio texts
+	* --------------------------------------- */
+    <style>
+	h1{
+		font-size: 5em;
+		font-family:sans-serif;
+		color: #FFC9F6;
+		margin:0;
+	}
+	.intro p{
+		color: #FFC9F6;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:left;
+	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+	</style>
