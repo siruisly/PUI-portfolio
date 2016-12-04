@@ -6,17 +6,17 @@
 	h1{
 		font-size: 5em;
 		font-family:sans-serif;
-		color: #FF1111;
+		color: #FFC9F6;
 		margin:0;
 	}
 	.intro p{
 		color: #FFC9F6;
 	}
 
-	/* Left-aligned texts in each section
+	/* Center-aligned texts in each section
 	* --------------------------------------- */
 	.section{
-		text-align:left;
+		text-align:center;
 	}
 
 	/* Overwriting styles for control arrows for slides
@@ -27,3 +27,4 @@
 	.controlArrow.next{
 		right: 50px;
 	}
+    </style>
