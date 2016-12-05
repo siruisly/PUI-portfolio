@@ -9,8 +9,9 @@
 		color: #FFC9F6;
 		margin:0;
 	}
-	.intro p{
+	p{
 		color: #FFC9F6;
+        font-family:sans-serif;
 	}
 
 	/* Center-aligned texts in each section

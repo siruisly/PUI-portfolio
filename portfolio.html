@@ -1,6 +1,6 @@
 <html>
-    
-    <head>
+
+<head>
     <link rel="stylesheet" href="portfolio.css">
         
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
@@ -13,7 +13,7 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#1F1f21','#E5e5e5','#1F1f21','#E5e5e5','#1F1f21'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
 				menu: '#menu',
 				scrollingSpeed: 1000
 			});
@@ -23,13 +23,10 @@
     
     <script src="portfolio.js"></script>
    
-
-        
-        
-    </head>
+</head>
 
 
-    <body>
+<body>
 
     
     
@@ -38,15 +35,15 @@
 	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
 	<li data-menuanchor="secondPage"><a href="#secondPage">About Me</a></li>
 	<li data-menuanchor="3rdPage"><a href="#3rdPage">My Process</a></li>
-	<li data-menuanchor="4thpage"><a href="#4thpage">Case Studies</a></li>
-    <li data-menuanchor="lastpage"><a href="#lastpage">Contact</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">Case Studies</a></li>
+    <li data-menuanchor="lastPage"><a href="#lastPage">Contact</a></li>
 </ul>
   
         
         
 <div id="fullpage">
 	
-    <div class="section active" id="section0">
+    <div class="section active fp-auto-height" id="section0">
 		<div class="intro">
 			<h1>Home</h1>
 			<img src="imgs/NameLogo.png"/>
@@ -57,54 +54,66 @@
 	</div>
      
     
-    <div class="section" id="section1">
-		<div class="intro">
-			<h1>About Me</h1>
-				<p>
-                    Hi! My name is Kathy Liu.
-                </p>
-                <p>
-                    And I'm a UX Researcher and Designer.
-                </p>
-                <br /><br /><br /><br /><br /><br />
-                <img src="imgs/profilephoto.png" />
+    <div class="section fp-auto-height" id="section1">
+	<div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">My name is Kathy Liu <span class="text-muted">And I'm a UX Researcher and Designer</span></h2>
+          <p class="lead">User experience research allows me to see the 10,000‐feet view of the product vision as well as focus on the nitty gritty aspects of design and user behavior, all while championing the perspective of customers and end users- and I love it.</p>
+        <br /><br /><br /><br /><br /><br />
+        </div>
+        <div class="col-md-5 col-md-pull-7">        
+        <img src="imgs/profilephoto.png" />
+        </div>
 		</div>
 	</div>
     
-    <div class="section" id="section2">
-        <div class="intro">
+    <div class="section fp-auto-height" id="section2">
         <h1>My Process</h1>
         
-        <img src="imgs/lightbulb.png"/>
+         <div class="row">
+        
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-2">
+            <img src="imgs/lightbulb.png"/>
         <p>
             Strategize: plan, scope, and define the project
         </p>
+        </div>
         
-        <img src="imgs/magnifying.png"/> 
+        <div class="col-lg-2">
+            <img src="imgs/magnifying.png"/> 
         <p>
             Research: explore, synthesize, and understand users
         </p> 
-        
+        </div>
+             
+        <div class="col-lg-2">
         <img src="imgs/tablet.png"/>    
         <h1>Design</h1>
         <p>Generate iterative concepts and early prototypes
         </p>
+        </div>
         
+        <div class="col-lg-2">
         <img src="imgs/clipboard.png"/>
         <p>
             Test: evaluate, refine, and ship
         </p>
+        </div>
         
+        <div class="col-lg-2">
         <img src="imgs/graph.png"/>    
         <p>
             Monitor: launch and monitor
         </p>
         </div> 
+        <div class="col-lg-1">
+        </div>
     </div>
+    </div> 
     
-    
-    
-	<div class="section" id="section3">
+	<div class="section fp-auto-height" id="section3">
 	    <div class="slide" id="slide1">
 			<div class="intro">
 			<h1>Case Studies</h1>
@@ -120,11 +129,8 @@
 			</div>
 		</div>
 	</div>
-   
     
-
-    
-    <div class="section" id="section4">
+    <div class="section fp-auto-height" id="section4">
         <div class="intro">
 			<h1>Contact</h1>
             <h2>Work Stuff</h2>
@@ -151,12 +157,8 @@
                 </p>
 		</div>
     </div>
-    
-    
-	
 </div>
-
-
+    
 </body>
     
 </html>
