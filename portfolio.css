@@ -15,18 +15,11 @@ table {
 fieldset,img {
     border: 0;
 }
-
 img {
-    max-width:75%;
+    max-width:80%;
     height: auto;
     width: auto;
 }
-
-img.sampleimgs{
-    height: 650;
-    width: auto;
-}
-
 address,caption,cite,code,dfn,em,strong,th,var {
     font-weight: normal;
     font-style: normal;
@@ -59,7 +52,7 @@ abbr,acronym { border: 0;
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: arial,helvetica;
+	font-family: sans-serif;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -157,4 +150,12 @@ p{
 }
 #logo{
     margin-bottom: 75px;
+}
+#introduction{
+    height: 800px;
+    width: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    text-align: left;
 }
