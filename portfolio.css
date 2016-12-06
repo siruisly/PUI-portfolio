@@ -123,16 +123,6 @@ p{
 	padding: 0;
 	margin:0;
 }
-#column3{
-    width: 500px;
-    float: left;
-    margin-top: 0;
-    height: 100%;
-}
-#column4{
-    margin-left: 500px;
-    height: 100%;
-}
 #column5{
     width: 500px;
     float: left;
@@ -167,7 +157,7 @@ p{
 
 #intro{
     margin-top: 110px;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }
 #logo{
     margin-bottom: 75px;
@@ -176,7 +166,7 @@ p{
     height: 800px;
     width: auto;
     margin-top: 250px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-left: 100px;
     text-align: left;
 }
@@ -184,11 +174,25 @@ p{
     height: 800px;
     width: auto;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-left: 100px;
     text-align: center;   
 }
 #processbox{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.casestudies{
+    height: 800px;
+    width: auto;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#column3{
+    float:left;
+    width:40%;
+}
+#column4{
+    float:right;
+    width:60%;
 }
